@@ -1,0 +1,18 @@
+.summary {
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(86, 82, 82);
+  width: 40vw;
+  padding: 1rem;
+  margin: auto;
+  z-index: 10;
+  position: relative;
+  top: -7rem;
+  color: ivory;
+  margin-bottom: 0;
+  box-shadow: 1px 2px 10px black;
+}
+
+.summary h2 {
+  margin-top: 0;
+}

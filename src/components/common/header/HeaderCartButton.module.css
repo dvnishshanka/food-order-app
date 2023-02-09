@@ -1,0 +1,21 @@
+.headerCartButton {
+  margin-right: 3rem;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  background-color: rgba(200, 192, 192, 0.6);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+}
+
+.badge {
+  background-color: black;
+  padding: 0.4rem 1rem;
+  border-radius: 4rem;
+}
+
+.cartImage {
+  width: 15px;
+}

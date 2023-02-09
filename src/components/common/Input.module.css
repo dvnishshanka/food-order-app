@@ -1,0 +1,15 @@
+.input label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.input input {
+  width: 40px;
+  border-color: rgb(231, 228, 228);
+  text-align: center;
+  border-radius: 3px;
+}
+
+.input {
+  margin-bottom: 0.5rem;
+}
