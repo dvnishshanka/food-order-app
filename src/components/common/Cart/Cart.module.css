@@ -1,0 +1,33 @@
+.btn-order {
+  padding: 0.25rem 1rem;
+  border-radius: 15px;
+  background-color: rgb(89, 69, 5);
+  color: white;
+  border-color: rgb(152, 133, 69);
+  border: 1px solid;
+  margin-left: 1rem;
+}
+
+.btn-close {
+  padding: 0.25rem 1rem;
+  border-radius: 15px;
+  color: rgb(89, 69, 5);
+  border-color: rgb(82, 71, 36);
+  background-color: white;
+  border: 1px solid;
+}
+
+.total {
+  border-top: 2px solid rgb(82, 71, 36);
+  padding-top: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.action {
+  display: flex;
+  justify-content: flex-end;
+}
