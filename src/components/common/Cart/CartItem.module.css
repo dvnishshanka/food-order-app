@@ -1,0 +1,42 @@
+.cart-item {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.price {
+  font-weight: bolder;
+  color: rgb(89, 69, 5);
+  font-size: 0.8rem;
+  margin-right: 3rem;
+}
+
+.amount {
+  border: 1px solid grey;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.actions button {
+  margin-left: 0.5rem;
+  border-radius: 3px;
+  width: 1.5rem;
+  background-color: none;
+  color: rgb(89, 69, 5);
+  font-size: large;
+  font-weight: bolder;
+  border: 1px solid rgb(89, 69, 5);
+}
+
+.actions button:hover {
+  background-color: rgb(89, 69, 5);
+  color: white;
+}

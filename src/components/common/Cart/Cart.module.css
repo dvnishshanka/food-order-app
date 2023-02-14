@@ -31,3 +31,10 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.cartItems {
+  margin-left: 0;
+  padding-left: 0;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
