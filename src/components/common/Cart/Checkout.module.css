@@ -1,0 +1,52 @@
+.control {
+  margin-bottom: 0.6rem;
+}
+
+.control label {
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: 0.2rem;
+  display: block;
+}
+
+.control input {
+  display: block;
+  border: 1px solid rgb(175, 169, 169);
+  box-shadow: none;
+  outline: none;
+}
+
+.control.invalid input {
+  background-color: rgb(243, 212, 212);
+}
+
+.btn-confirm {
+  padding: 0.25rem 1rem;
+  border-radius: 15px;
+  background-color: rgb(89, 69, 5);
+  color: white;
+  border-color: rgb(152, 133, 69);
+  border: 1px solid;
+  margin-left: 1rem;
+}
+
+.btn-cancel {
+  padding: 0.25rem 1rem;
+  border-radius: 15px;
+  color: rgb(89, 69, 5);
+  border-color: rgb(82, 71, 36);
+  background-color: white;
+  border: 1px solid;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.errorMsg {
+  color: red;
+  margin-bottom: 0;
+  font-size: small;
+  margin-top: 0;
+}

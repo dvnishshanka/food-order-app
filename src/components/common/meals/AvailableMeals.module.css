@@ -4,3 +4,13 @@
   list-style: none;
   max-width: 60rem;
 }
+
+.meal-loading {
+  color: white;
+  text-align: center;
+}
+
+.meal-error {
+  color: red;
+  text-align: center;
+}
